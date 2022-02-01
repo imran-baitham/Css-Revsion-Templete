@@ -29,11 +29,6 @@ nav {
   background-color: rgba(0, 0, 0, 0.568);
   height: auto;
   padding: 15px 5%;
-  /* position: fixed; */
-  /* top: 0px;/ */
-  /* left: 0px; */
-  /* bottom: 90%; */
-  /* right: 0%/; */
 }
 nav a {
   color: white;
@@ -57,7 +52,7 @@ nav a:hover {
 #sect__one {
   width: 100%;
   height: auto;
-  background-image: url(./Images/GirlPicture.jpg);
+  background-image: url(../images/GirlPicture.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: left;
@@ -131,11 +126,10 @@ nav a:hover {
 }
 
 .div__one {
-  background-color: turquoise;
   width: 30%;
   height: 40vh;
   border: 1px solid black;
-  background-image: url(./Images/team-dark-01.jpg);
+  background-image: url(../images/team-dark-01.jpg);
   background-position: center;
   background-size: cover;
   margin: 1%;
