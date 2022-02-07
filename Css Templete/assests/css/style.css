@@ -9,7 +9,7 @@
 #sect__three {
   width: 100%;
   height: 100vh;
-  cursor: url , auto;
+  cursor: url(../images/play_green.svg), auto;
 }
 .div__main_father {
   width: 100%;
@@ -25,7 +25,6 @@
   width: 25%;
   height: 100vh;
   transition: all 0.3s ease;
-  /* duration timing-function */
 }
 .childs:nth-child(1) {
   background-image: url(../images/map_panel_2048.jpg);
@@ -62,4 +61,53 @@
 }
 #three:hover {
   background-color: transparent;
+}
+
+#child__one:hover button {
+  display: block;
+}
+
+.logo__img {
+  width: 250px;
+  height: 250px;
+  padding: 30px 30px;
+}
+.logo__img .div__header {
+  padding-top: 50%;
+  color: aliceblue;
+}
+
+.style__btn {
+  padding-top: 250px;
+  padding-left: 30px;
+}
+.style__btn button {
+  padding: 7px 30px;
+  display: none;
+}
+.style__btn button:hover {
+  cursor: pointer;
+}
+.footer {
+  width: 36%;
+  height: 5vh;
+  background-color: rgba(68, 67, 67, 0.932);
+  border-radius: 10px;
+  position: fixed;
+  left: 30px;
+  bottom: 50px;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.footer h2,
+a {
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer a {
+  color: white;
+  padding: 0px 5px;
 }
