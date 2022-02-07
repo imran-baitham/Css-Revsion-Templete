@@ -1,0 +1,65 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+/* =================== Section Three ==================== */
+
+#sect__three {
+  width: 100%;
+  height: 100vh;
+  cursor: url , auto;
+}
+.div__main_father {
+  width: 100%;
+  height: 100vh;
+}
+.main__div {
+  width: 100%;
+  display: flex;
+  height: auto;
+  border: 1px solid black;
+}
+.childs {
+  width: 25%;
+  height: 100vh;
+  transition: all 0.3s ease;
+  /* duration timing-function */
+}
+.childs:nth-child(1) {
+  background-image: url(../images/map_panel_2048.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.childs:hover {
+  width: 30%;
+}
+.main__div:hover .change {
+  background-color: rgb(67, 211, 0);
+  background-blend-mode: darken;
+}
+#one {
+  background-image: url(../images/lauren_home_portrait.jpg);
+  background-position: center;
+  background-size: cover;
+}
+#one:hover {
+  background-color: transparent;
+}
+#two {
+  background-image: url(../images/saiful_home_portrait.jpg);
+  background-position: center;
+  background-size: cover;
+}
+#two:hover {
+  background-color: transparent;
+}
+#three {
+  background-image: url(../images/uma_home_portrait.jpg);
+  background-position: center;
+  background-size: cover;
+}
+#three:hover {
+  background-color: transparent;
+}
